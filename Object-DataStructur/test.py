@@ -1,2 +1,2 @@
 x = "hello world"
-x.split()
+print(x.split())
