@@ -18,3 +18,7 @@ print(matrix[0][0])
 first_col = [row[0] for row in matrix] 
 
 print(first_col)
+
+
+
+
