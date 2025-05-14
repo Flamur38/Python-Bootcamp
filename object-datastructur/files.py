@@ -30,5 +30,11 @@ for line in open('test.txt'):
     print(line)
 
 
+# This creates a new file:
+with open('new_test.txt', mode='w') as f:
+    f.write('New line here')
 
+# Read the new created file.
+with open('new_test.txt', mode='r') as f:
+    print(f.read())
 
